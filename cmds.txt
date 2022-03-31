@@ -1,7 +1,7 @@
 ssh-keygen -o
 git init
 git remote add origin https://github.com/jmanda1240/zxc_dodger.git
-echo "# zxc_dodger" >> README.md
+echo "# zxc_dodger1" >> README.md
 git add .
 git commit -m "first commit"
 git config --global user.email "you@example.com"
@@ -9,3 +9,5 @@ git config --global user.name "Your Name"
 git branch -M main
 git remote add origin https://github.com/jmanda1240/zxc_dodger.git
 git push -u origin main
+
+git clone git@github.com:jmanda1240/zxc_dodger.git
